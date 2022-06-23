@@ -1,0 +1,7 @@
+name: ci
+
+on: [push, workflow_dispatch]
+
+jobs:
+  main:
+    uses: Forrin/workflows/.github/workflows/terraform-module-ci.yaml@main
